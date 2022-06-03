@@ -18,7 +18,7 @@ global.autoread = true // auto read pesan / message
 //global.available = true //status online (online)
 
 // Other
-global.botname = "AeullBotz" //namabot kalian
+global.botname = "ArullBotz" //namabot kalian
 global.ownername= "ᴹᴿ᭄ ArullWara ×፝֟͜×" //nama kalian
 global.myweb ="https://api.zeeoneofc.xyz" //bebas asal jan hapus
 global.youtube = "https://youtube.com/c/ZeeoneOfc" //bebas asal jan hapus
