@@ -168,7 +168,7 @@ if (!('autorespond' in settings)) settings.autorespond = false
 available: false,
 composing: false,
 recording: false,
-autorespond:false,
+autorespond:true,
 }
 } catch (err) {
 console.log(err)
@@ -801,13 +801,13 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
           },
           {
             "quickReplyButton": {
-              "displayText": "Rules",
+              "displayText": "Rules ArullBotzMD",
 "id": 'rules'
             }
           },
           {
             "quickReplyButton": {
-              "displayText": "Owner",
+              "displayText": "Owner ArullbotzMD",
 "id": 'owner'
             }
           },
@@ -1482,7 +1482,7 @@ break
 									}
 								]
 							}], {quoted:fgif})
-                if (!listhades.includes(text)) return alpha.sendList(from, 'Mau set menu bang ?', `© ${ownername}`, salam + ' ' + pushname, 'KLIK DISINI', [
+                if (!listhades.includes(text)) return alpha.sendList(from, 'Pilih aja rull semaumu🗿 ?', `© ${ownername}`, salam + ' ' + pushname, 'KLIK DISINI', [
 							{
 								"title": "Set Menu-1",
 								"rows": [
@@ -1548,7 +1548,7 @@ break
 					}
 					break    
 	case 'allmenu':{
-			await alpha.send5ButLoc(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Rules","id": 'rules'}}] )
+			await alpha.send5ButLoc(from, `Hallo kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Rules","id": 'rules'}}] )
 		}
 	break   
 	case 'infocmd': case'infomenu':{
