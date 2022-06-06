@@ -708,7 +708,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
 				var but = [
 				{
 					"urlButton": {
-						"displayText": "Website",
+						"displayText": "Follow Ngab Tar Difollbck",
 						"url": `${myweb}`
 						}
 					}
@@ -784,11 +784,11 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
 				}
             break
             
-            case 'donasi': case 'donate':{
+            case 'donasi': case 'Donasi lah todd':{
             var but = [
           {
             "urlButton": {
-              "displayText": "YouTube Creator",
+              "displayText": "Promosikan yt Zeeoneofc",
               "url": `${youtube}`
             }
           },
@@ -1439,7 +1439,7 @@ break
             case 'setmenu':{
             	if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
             const listhades = ['templateLocation', 'templateTenor','list', 'katalog', 'katalog2']
-			alpha.sendList(from, 'Mau set menu bang ?', `© ${ownername}`, salam + ' ' +  pushname, 'KLIK DISINI', [
+			alpha.sendList(from, 'Mau set menu Rull ?', `© ${ownername}`, salam + ' ' +  pushname, 'KLIK DISINI', [
 							{
 								"title": "Set Menu-1",
 								"rows": [
